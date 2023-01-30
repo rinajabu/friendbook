@@ -23,8 +23,7 @@ function App() {
 						<Route
 							path="/home"
 							element={
-								// isAuth ? <HomePage /> : <Navigate to="/" />
-								<HomePage />
+								isAuth ? <HomePage /> : <Navigate to="/" />
 							}
 						/>
 						<Route
